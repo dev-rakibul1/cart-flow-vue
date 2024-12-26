@@ -1,0 +1,58 @@
+@import "./base.css";
+
+.box-container {
+  max-width: 100%;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+svg {
+  width: 30px;
+}
+.sidebar-back-btn svg {
+  width: 22px;
+}
+
+.p-banner-svg svg {
+  width: 22px;
+}
+
+.pro-banner-info svg {
+  width: 50px;
+}
+
+.rating-start svg {
+  width: 17px;
+}
+
+/* Remove focus outline from all inputs */
+input:focus {
+  outline: none;
+}
+
+/* Remove focus outline globally */
+* {
+  outline: none;
+}
+
+/* Optionally: Add custom styles for focused elements */
+input:focus {
+  border: 1px solid #ccc; /* Example of adding a subtle border */
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* Optional focus effect */
+}
+
+.element {
+  overflow: scroll;
+  scrollbar-width: none; /* For Firefox */
+}
+
+::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
