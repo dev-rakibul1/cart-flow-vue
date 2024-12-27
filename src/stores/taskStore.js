@@ -3,9 +3,8 @@ import { defineStore } from "pinia";
 export const useTaskStore = defineStore("taskStore", {
   state: () => ({
     tasks: [{ name: "IPhone 16 pro max", price: 25.5 }],
-    name: "myTask",
     products: [],
-    cart: [], // Initial empty cart
+    cart: [],
     totalAmount: 0,
   }),
   actions: {

@@ -130,7 +130,7 @@ export default {
           // Store the token (e.g., in localStorage or a cookie)
           localStorage.setItem("token", data.addUser.token);
           // Redirect the user (e.g., to the home page)
-          this.$router.push("/home"); // Example redirect
+          this.$router.push("/"); // Example redirect
         }
       } catch (error) {
         console.error("Registration error:", error);
