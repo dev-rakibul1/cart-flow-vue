@@ -1,9 +1,9 @@
 <template>
   <div
-    class="bg-gray-50 p-4 rounded-lg flex flex-wrap items-center justify-between gap-4"
+    class="bg-gray-50 rounded-lg flex flex-wrap items-center justify-between gap-4"
   >
     <!-- Categories -->
-    <div class="flex flex-wrap items-center gap-4">
+    <div style="display: flex; flex-wrap: wrap">
       <button
         v-for="(filter, index) in filters"
         :key="index"
