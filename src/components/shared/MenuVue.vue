@@ -259,11 +259,20 @@
 
             <!-- Display cart items -->
             <div class="mt-3">
-              <AddCard
-                v-for="product in store.products"
-                :key="product.id"
-                :product="product"
-              />
+              <div
+                v-if="store.products.length === 0"
+                class="flex items-center justify-center"
+                style="height: 20vh"
+              >
+                Cart is empty
+              </div>
+              <div v-else>
+                <AddCard
+                  v-for="product in store.products"
+                  :key="product.id"
+                  :product="product"
+                />
+              </div>
             </div>
           </ul>
         </div>

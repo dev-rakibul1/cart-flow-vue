@@ -1,22 +1,9 @@
 <template>
   <div
-    class="group flex items-center justify-between p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100"
+    class="mt-3 group flex items-center justify-between p-3 bg-white rounded-lg transition-all duration-200 border border-gray-100"
   >
     <!-- Previous code remains same until Product Info section -->
 
-    <!-- Product Info -->
-    <!-- <div class="flex-grow px-3">
-      <h3 class="text-sm font-medium text-gray-900 truncate max-w-[150px]">
-        {{ product.name || "Product Name" }}
-      </h3>
-      <div class="flex mt-1 space-x-2 justify-start items-center">
-        <span class="text-base font-normal">
-          ${{ formatPrice(product.price) }}
-        </span>
-        <span>|</span>
-        <span>Qty: {{ product.quantity }}</span>
-      </div>
-    </div> -->
 
     <!-- Product Image with Skeleton -->
     <div class="relative w-14 h-14 rounded-lg overflow-hidden bg-gray-50">

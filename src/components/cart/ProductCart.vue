@@ -115,12 +115,12 @@ export default {
           <span>+ Add</span>
         </button>
 
-        <button
+        <!-- <button
           class="w-full py-2 bg-gray-100 rounded-lg text-gray-900 font-medium hover:bg-gray-200 flex items-center justify-center"
           @click="redirectToProduct(drink.id)"
         >
           <span>Details</span>
-        </button>
+        </button> -->
       </div>
     </div>
   </div>

@@ -17,7 +17,7 @@
             name="email"
             type="email"
             placeholder="Enter your email"
-            class="w-full px-4 py-2 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="w-full px-4 py-2 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow -500"
             required
             :class="{ 'border-red-500': errors.email }"
           />
@@ -37,7 +37,7 @@
             name="password"
             type="password"
             placeholder="Enter your password"
-            class="w-full px-4 py-2 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="w-full px-4 py-2 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow -500"
             required
             :class="{ 'border-red-500': errors.password }"
           />
@@ -48,14 +48,21 @@
 
         <button
           type="submit"
-          class="w-full py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          class="w-full py-2 px-4 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 focus:ring-2 focus:ring-yellow -500 focus:outline-none"
         >
           Login
         </button>
       </form>
 
+      <div class="text-center mt-3">
+        I have no account
+        <router-link to="/auth/register" class="text-yellow-500"
+          >Register</router-link
+        >
+      </div>
+
       <div class="mt-4 text-center">
-        <a href="#" class="text-sm text-blue-500 hover:text-blue-600"
+        <a href="#" class="text-sm text-yellow-500 hover:text-yellow-600"
           >Forgot password?</a
         >
       </div>
